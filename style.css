@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: rgb(25, 131, 201);
+    --secondary-color: rgb(1, 2, 75);
+}
+body{
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.navbar{
+    background-color: #fff;
+}
+.navbar .flex img{
+    height: 40px;
+}
+.navbar .flex{
+    align-items: center;
+
+}
+.nav-links ul{
+    display: flex;
+}
+.navbar{
+    background-color: #fff;
+}
+
+/*body*/
+
+.body{
+    background-color: #f7f5f2;
+}
+.body .flex .text-center{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.body .box{
+    background-color: #fff;
+    margin-top: 50px;
+}
+.body .box h1{
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 1.5px;
+}
+.body .box .text-xl{
+    margin-bottom: 5px;
+}
+.body .box button{
+    background-color: #0061FE;
+    width: 100%;
+    margin-top: 20px;
+}
+.box .text-left{
+    color: #fff;
+}
+.box .try .flex i{
+    color: #fff;
+}
+.body .for-work{
+    height: 150px;
+}
+.dark-body{
+    background-color: #1E1919;
+}
+.dark-body .container h1{
+    font-size: 25px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.dark-body .container .head{
+    margin-bottom: 10px;
+}
+.dark-body .line1{
+    width: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 50px;
+}
+.dark-body .line2{
+    width: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+}
+.dark-body .container .fa-shield{
+    margin-top: 20px;
+}
+/*@media screen and (max-width: 375px){
+    h1{
+        color: blue
+    }
+}*/
