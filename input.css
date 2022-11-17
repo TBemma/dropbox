@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 *{
     box-sizing: border-box;
@@ -97,8 +100,34 @@ body{
     border: 1px solid #fff;
     margin-bottom: 20px;
 }
-.dark-body .container .fa-shield{
+.dark-body .container .fas{
     margin-top: 20px;
+}
+.body-light{
+    background-color: #f7f5f2;
+}
+.body-light .container .body-light-box{
+    background-color: #EEE9E2;
+}
+.dark-body-2{
+    background-color: #1E1919;
+}
+.dark-body-2-box1{
+    background-color: #B4DC19;
+}
+.dark-body-2-box1{
+    background-color: #B4DC19;
+}
+.dark-body-2 .container .dark-body-2-box2 a{
+    text-decoration: visible;
+}
+.dark-body-2 .container .dark-body-2-box2 .link{
+    margin-bottom: 90px;
+    margin-top: 5px;
+}
+.dark-body-2 .dark-body-2-box{
+    border-bottom: 1px solid #fff;
+    padding: 64px 30px;
 }
 /*@media screen and (max-width: 375px){
     h1{
